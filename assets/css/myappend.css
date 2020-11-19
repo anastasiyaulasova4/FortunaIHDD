@@ -1,0 +1,152 @@
+/* Pictures */
+/* #main > section.one { */
+  /* background-video: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), */
+    /* url("../../src/intro_light.mp4"); */
+/* } */
+
+/* Fonts */
+body {
+  font-family: "Noto Sans SC", sans-serif;
+}
+
+input,
+textarea,
+select {
+  font-family: "Noto Sans SC", sans-serif;
+}
+
+div > header > h2 {
+  font-family: "Bebas Neue", cursive;
+}
+
+#title {
+  font-family: "Bebas Neue", cursive;
+}
+
+#main div > p {
+  text-align: left;
+  text-indent: 2em;
+}
+
+/* Colors */
+#header {
+  background: #032859 url("images/overlay.png");
+}
+
+#header .icons a {
+  color: #a7d5f2;
+}
+
+#nav ul li a span:before {
+  color: #C0C6C9;
+}
+
+#nav ul li a.active span:before {
+  color: #a7d5f2;
+}
+
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
+button,
+.button {
+  background-color: #067BC4;
+}
+
+input[type="button"]:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+button:hover,
+.button:hover {
+  background-color: #079BF7;
+}
+
+input[type="button"]:active,
+input[type="submit"]:active,
+input[type="reset"]:active,
+button:active,
+.button:active {
+  background-color: #37617A;
+}
+
+/* Sections */
+#main > section.two {
+  background-color: #f5fafa;
+}
+
+#main > section.three {
+  background-color: #f1f6f5;
+}
+
+#main > section.four {
+  background-color: #ecf1f1;
+}
+
+#main > section.five {
+  background-color: #e8edec;
+}
+
+/* ---------------------------------------------------------------------------------------------------------- */
+
+body, html {
+    height: 100%;
+}
+
+#Container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+#Container video {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    /* The following will size the video to fit the full container. Not necessary, just nice.*/
+    min-width: 100%;
+    min-height: 100%;
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    z-index: 0;
+}
+
+#Container div {
+    position: relative;
+    z-index: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
