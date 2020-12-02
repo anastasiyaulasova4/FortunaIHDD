@@ -1,6 +1,5 @@
 @import url("fontawesome-all.min.css");
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600");
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300&display=swap');
+/* @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600"); */
 
 /*
 	Prologue by HTML5 UP
@@ -210,6 +209,54 @@ input, select, textarea {
 	br.clear {
 		clear: both;
 	}
+	
+/* ContainerVideo */
+	.containervideo {
+		margin: 0 auto;
+		max-width: 100%;
+	
+	}
+
+		@media screen and (min-width: 961px) and (max-width: 1880px) {
+
+			.container {
+                width: 100%;
+			}
+
+		}
+
+		@media screen and (min-width: 961px) and (max-width: 1620px) {
+
+			.container {
+                width: 100%;
+			}
+
+		}
+
+		@media screen and (min-width: 961px) and (max-width: 1320px) {
+
+			.container {
+				width: 100%;
+			}
+
+		}
+
+		@media screen and (max-width: 960px) {
+
+			.container {
+				width: 100%;
+			}
+
+		}
+
+		@media screen and (max-width: 736px) {
+
+			.container {
+				width: 100%;
+			}
+
+		}
+
 
 /* Container */
 
@@ -2242,15 +2289,15 @@ input, select, textarea {
 					}
 
 			#main > section.cover {
-				padding: 0em 0;
+				padding: 10em 0;
 				background-size: cover;
 				background-position: center center;
 			}
 
-			/* #main > section.one { */
-				/* background-color: #81918E; */
-				/* background-video: url("../../src/intro_light.mp4"); */
-			/* } */
+			#main > section.one {
+				background-color: #81918E;
+				/* background-image: url("../../images/banner.jpg"); */
+			}
 
 			#main > section.two {
 				background-color: #f5fafa;

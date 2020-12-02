@@ -1,105 +1,244 @@
-/* Pictures */
-/* #main > section.one { */
-  /* background-video: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), */
-    /* url("../../src/intro_light.mp4"); */
-/* } */
+/* ================ 字体 ================ */
 
-/* Fonts */
+/* 正文基准字体 */
+
 body {
   font-family: "Noto Sans SC", sans-serif;
 }
 
-input,
-textarea,
-select {
+/* 输入框字体 */
+
+input, textarea, select {
   font-family: "Noto Sans SC", sans-serif;
 }
 
-div > header > h2 {
+/* 标题字体 */
+
+div>header>h2 {
   font-family: "Bebas Neue", cursive;
 }
+
+/* 头像旁的组织名的字体 */
 
 #title {
   font-family: "Bebas Neue", cursive;
 }
 
-#main div > p {
+/* 正文缩进 */
+
+#main div>p {
   text-align: left;
   text-indent: 2em;
 }
 
-/* Colors */
+/* 弹窗边距、缩进 */
+
+.modal-body>p {
+  margin-bottom: 0;
+  text-indent: 1em;
+}
+
+/* ================ 颜色 ================ */
+
+/* -------- 左侧栏 -------- */
+
+/* 背景色 */
+
 #header {
   background: #032859 url("images/overlay.png");
 }
+
+/* 下方媒体标志色 */
 
 #header .icons a {
   color: #a7d5f2;
 }
 
+/* 没有选中的选项的文字颜色 */
+
+#nav ul li a {
+  color: #DDE3E9;
+}
+
+/* 选中的选项的文字颜色 */
+
+#nav ul li a.active {
+  color: #fff
+}
+
+/* 没有选中的选项的图标颜色 */
+
 #nav ul li a span:before {
   color: #C0C6C9;
 }
+
+/* 选中的选项的图标颜色 */
 
 #nav ul li a.active span:before {
   color: #a7d5f2;
 }
 
-input[type="button"],
-input[type="submit"],
-input[type="reset"],
-button,
-.button {
-  background-color: #067BC4;
+/* -------- 按钮 -------- */
+
+/* 按钮颜色 */
+
+input[type="button"], input[type="submit"], input[type="reset"], button, .button {
+  background-color: #065484;
 }
 
-input[type="button"]:hover,
-input[type="submit"]:hover,
-input[type="reset"]:hover,
-button:hover,
-.button:hover {
+/* Hover按钮时的颜色 */
+
+input[type="button"]:hover, input[type="submit"]:hover, input[type="reset"]:hover, button:hover, .button:hover {
   background-color: #079BF7;
 }
 
-input[type="button"]:active,
-input[type="submit"]:active,
-input[type="reset"]:active,
-button:active,
-.button:active {
+/* 点击按钮时的颜色 */
+
+input[type="button"]:active, input[type="submit"]:active, input[type="reset"]:active, button:active, .button:active {
   background-color: #37617A;
 }
 
-/* Sections */
-#main > section.two {
+/* -------- 内容板块 -------- */
+
+/* 第一部分背景色 */
+
+#main>section.one {
+  background-color: #F6F7FA;
+}
+
+/* 第二部分背景色 */
+
+#main>section.two {
   background-color: #f5fafa;
 }
 
-#main > section.three {
+/* 第三部分背景色 */
+
+#main>section.three {
   background-color: #f1f6f5;
 }
 
-#main > section.four {
+/* 第四部分背景色 */
+
+#main>section.four {
   background-color: #ecf1f1;
 }
 
-#main > section.five {
+/* 第五部分背景色 */
+
+#main>section.five {
   background-color: #e8edec;
 }
 
-/* ---------------------------------------------------------------------------------------------------------- */
+/* 正文标题色 */
+
+body {
+  color: #3D3D3D;
+}
+
+/* 正文内容色 */
+
+h1, h2, h3, h4, h5, h6 {
+  color: #1F1F1F;
+}
+
+/* 弹窗强调文字 */
+
+.modal-body>p>span {
+  color: red;
+}
+
+/*  */
+
+.modal-body>img {
+  width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+.modal-body>p{
+  text-align: center;
+}
+
+.modal-header>h5{
+  text-align: center;
+}
+
+/* ================ 广告 ================ */
+
+#ad {
+  width: intrinsic;
+  height: intrinsic;
+  background-color: white;
+  position: fixed;
+  bottom: 10%;
+  right: 0%;
+  border: 1px solid #032858;
+  border-radius: 5px;
+  z-index: 3;
+}
+
+#ad-upper {
+  height: 50%;
+}
+
+#ad-close {
+  position: absolute;
+  top: 2%;
+  right: 3%;
+  width: 20px;
+  height: 20px;
+}
+
+#ad-pic {
+  width: 100%;
+  border-radius: 5px;
+}
+
+#ad-middle {
+  height: 40%;
+  margin: 1px;
+  border: 5px;
+}
+
+#ad-text {
+  font-size: 90%;
+  text-align: center;
+  color: #032858;
+  margin: 5px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+#ad-lower {
+  height: 10%;
+  text-align: center;
+}
+
+#ad-btn {
+  margin: 5px;
+  padding: 0.1em 2.5em 0.1em 2.5em;
+  font-size: 50%;
+}
+
+
+/* ================ 视频背景 ================ */
+/* <div id="Container"> */
+    /* <video></video> */
+    /* <div></div> */
+/* </div> */
 
 body, html {
     height: 100%;
 }
 
-#Container {
+#video_bg {
     width: 100%;
     height: 100%;
     position: relative;
     overflow: hidden;
 }
 
-#Container video {
+#video_bg video {
     position: absolute;
     left: 50%;
     top: 50%;
@@ -113,40 +252,9 @@ body, html {
     z-index: 0;
 }
 
-#Container div {
+
+
+#video_bg div {
     position: relative;
     z-index: 1;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
